@@ -467,3 +467,19 @@ a.project-link:hover {
   /* styles set dynamically in JS */
   font-weight: 600;
 }
+
+.btn-box {
+  background-color: #00bcd4;
+  color: #121212;
+  border: none;
+  padding: 1rem 0;
+  font-weight: 700;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: inline-block;       /* Add this if not present */
+  width: 150px;                /* optional: add a width if you want consistent size */
+  text-align: center;          /* center text inside */
+  text-decoration: none;       /* remove underline */
+}
